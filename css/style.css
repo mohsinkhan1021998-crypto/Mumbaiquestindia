@@ -1,1 +1,42 @@
+:root {
+    --primary: #0B192C;
+    --secondary: #1E3E62;
+    --accent: #D4AF37;
+    --white: #FFFFFF;
+}
 
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f8fafc;
+}
+
+header {
+    background: var(--primary);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.hero {
+    background: var(--secondary);
+    color: white;
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.btn {
+    background: var(--accent);
+    color: black;
+    padding: 12px 25px;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+footer {
+    background: var(--primary);
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
